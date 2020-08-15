@@ -29,3 +29,8 @@ fi
 # golang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+#rust
+export PATH=$PATH:~/cargo/bin
+
+export PATH="$HOME/.cargo/bin:$PATH"
