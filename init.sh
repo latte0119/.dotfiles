@@ -1,4 +1,4 @@
-DIR=`pwd`
+DIR=$(cd $(dirname $0); pwd)
 
 cd ~
 ln -s -f ${DIR}/.bashrc .bashrc
@@ -8,9 +8,6 @@ ln -s -f ${DIR}/.vimrc .vimrc
 
 rm -rf .vim
 ln -s ${DIR}/.vim .vim
-
-rm -rf .mozc
-ln -s ${DIR}/.mozc .mozc
 
 cd ~/.config
 rm -rf fish
