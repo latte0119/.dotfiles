@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/latte/dev/tmp/docker'
 let g:netrw_dirhist_6='/'
 let g:netrw_dirhist_5='/home/latte/Documents/node-js-getting-started/views/pages'
 let g:netrw_dirhist_4='/home/latte/Documents/node-js-getting-started/views'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_1='/home/latte/Documents/node-js-getting-started/public/styl
 let g:netrw_dirhist_0='/home/latte/Documents/node-js-getting-started/public'
 let g:netrw_dirhist_9='/home/latte/Documents/node-js-getting-started'
 let g:netrw_dirhist_8='/home/latte/Documents/node-js-getting-started/public'
-let g:netrw_dirhist_7='/home/latte/Documents/node-js-getting-started'

@@ -1,4 +1,6 @@
-DIR=`pwd`
+#!/bin/bash
+
+DIR=$(cd $(dirname $0); pwd)
 
 cd ~
 ln -s -f ${DIR}/.bashrc .bashrc
@@ -7,6 +9,7 @@ ln -s -f ${DIR}/.gitconfig .gitconfig
 ln -s -f ${DIR}/.vimrc .vimrc
 ln -s -f ${DIR}/.Xmodmap .Xmodmap
 ln -s -f ${DIR}/.xinitrc .xinitrc
+ln -s -f ${DIR}/.latexmkrc .latexmkrc
 
 rm -rf .vim
 ln -s ${DIR}/.vim .vim
