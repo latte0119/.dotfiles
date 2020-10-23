@@ -8,7 +8,6 @@ ln -s -f ${DIR}/.profile .profile
 ln -s -f ${DIR}/.gitconfig .gitconfig
 ln -s -f ${DIR}/.vimrc .vimrc
 ln -s -f ${DIR}/.Xmodmap .Xmodmap
-ln -s -f ${DIR}/.xinitrc .xinitrc
 ln -s -f ${DIR}/.latexmkrc .latexmkrc
 
 rm -rf .vim
