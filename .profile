@@ -26,17 +26,6 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-#python
-alias python="python3"
-
-# golang
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
-
-#rust
-export PATH="$HOME/.cargo/bin:$PATH"
-
-
 #tex
 export PATH="/usr/share/texlive:$PATH"
 

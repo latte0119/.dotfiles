@@ -1,5 +1,6 @@
-alias dc='sudo docker-compose'
-alias rmdp='sudo docker rm (sudo docker ps -aq)'
-alias rmdi='sudo docker rmi (sudo docker images -q)'
+#rust
+set -x PATH $PATH $HOME/.cargo/bin
+
+alias python='python3'
 alias ll='ls -AlF'
 
