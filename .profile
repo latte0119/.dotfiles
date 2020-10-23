@@ -26,6 +26,3 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-#tex
-export PATH="/usr/share/texlive:$PATH"
-
